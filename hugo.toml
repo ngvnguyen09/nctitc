@@ -1,0 +1,8 @@
+baseURL = 'https://ngvnguyen09.github.io/nctitc/'
+languageCode = 'vi-vn'
+title = 'NCT ITC Blog'
+theme = "PaperMod"
+
+[params]
+    defaultTheme = "auto"
+    showCodeCopyButtons = true
