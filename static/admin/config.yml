@@ -2,9 +2,8 @@ backend:
   name: github
   repo: ngvnguyen09/nctitc
   branch: main
-  # Chỗ này cực quan trọng nè: 
-  # Nếu ông dùng Vercel để chạy cái cổng Auth thì dán link Vercel vào đây
-  base_url: https://nctitc.vercel.app
+  # Đây là bí kíp: Dùng một cổng Auth trung gian miễn phí
+  base_url: https://decap-cms-oauth.vercel.app
   auth_endpoint: /api/auth
 
 media_folder: "static/images"
